@@ -1,3 +1,10 @@
+# [dnjs](https://github.com/leontrolski/dnjs#dnjs) client helper
+
+_For when you don't need all of [mithril](https://mithril.js.org/) (this is currently 33 lines)._
+
+## Usage:
+
+```html
 <ul id="comments"></ul>
 
 <script type="module">
@@ -10,3 +17,4 @@
     )
     m.setInner(commentsEl, m.makeEl(ul))
 </script>
+```
