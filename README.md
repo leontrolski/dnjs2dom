@@ -8,7 +8,7 @@ _For when you don't need all of [mithril](https://mithril.js.org/) (this is curr
 <ul id="comments"></ul>
 
 <script type="module">
-    import m from "https://unpkg.com/dnjs2dom@0.0.1/index.js"
+    import m from "https://unpkg.com/dnjs2dom@0.0.2/index.js"
 
     const commentsEl = document.getElementById("comments")
     const comments = [{text: "hiya!"}, {text: "oioi"}]

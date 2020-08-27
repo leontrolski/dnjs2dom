@@ -6,7 +6,7 @@ const m = (...args) => {
     for (const part of head.split(/(?=\.)|(?=#)|(?=\[)/)){
         if(part[0] === ".") classes.push(part.slice(1))
         else if(part[0] === "#") id = part.slice(1)
-        else tag = part
+        else if (part) tag = part
     }
     if (tail.length && !m.isRenderable(tail[0])) [attrs, ...tail] = tail
     if (attrs.class) classes = [...classes, ...attrs.class]
