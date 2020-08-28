@@ -1,6 +1,6 @@
 {
   "name": "dnjs2dom",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "tiny dnjs to DOM library for the browser",
   "main": "index.js",
   "scripts": {

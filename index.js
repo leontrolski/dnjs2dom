@@ -2,7 +2,7 @@ const m = (...args) => {
     let [attrs, [head, ...tail]] = [{}, args]
     let tag = "div"
     let id = undefined
-    const classes = []
+    let classes = []
     for (const part of head.split(/(?=\.)|(?=#)|(?=\[)/)){
         if(part[0] === ".") classes.push(part.slice(1))
         else if(part[0] === "#") id = part.slice(1)
